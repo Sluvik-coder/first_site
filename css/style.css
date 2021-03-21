@@ -1,0 +1,325 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+a{
+  color:#fff;
+}
+.first{
+
+  background:url("../img/Бэкграунд.png") no-repeat;
+background-size: cover;
+background-attachment: fixed ;
+
+width: 1519px;
+max-width: 1519px;
+
+
+
+}
+.logo{
+  margin-top: 24px;
+  margin-left:  132px;
+
+}
+header{
+  position: relative;
+ 
+  
+}
+.rsv{
+  position: absolute;
+  width: 24.05px;
+height: 9.52px;
+left: 183.89px;
+top: 81.18px;
+font-size: 13px;
+color:rgba(255, 255, 255, 0.8);
+}
+.flex1{
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 365px;
+ 
+}
+.flex1 li{
+  font-size: 24px;
+  font-weight: 400;
+  
+  color: rgba(255,255,255,1);
+  margin-right: 47px;
+}
+.flex1 a:hover{
+  color:red;
+}
+
+
+
+.teleshka{
+  position: absolute;
+  left: 740px;
+  top:28px;
+}
+
+.znak{
+  position: absolute;
+    left: 808px;
+  top:33.25px;
+}
+
+
+.palka{
+  position: absolute;
+  left: 819.51px;
+  top:46.86px;
+}
+
+.text{
+  position: absolute;
+  left: 808px;
+  top:37.86px;
+  background-color: rgba(0,0,0,0);
+  border-bottom: 1px solid #FFFFFF;
+  padding-left: 25px;
+  width: 223px;
+  font-size: 20px;
+  color:  #FFFFFF;
+}
+
+
+.vse3{
+  position: absolute;
+  left: 1092px;
+  top:40px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-family: FuturaBookC;
+}
+
+.number{
+  font-size: 24px;
+  line-height: 28px;
+
+}
+.address{
+  margin-top: 14px;
+  font-size: 16px;
+
+}
+.time{
+  margin-top: 6px;
+  font-size: 16px;
+}
+.address::before{
+  content: url(../img/address.png);
+  margin-right: 6.8px;
+}
+.time::before{
+  content: url(../img/time.png);
+  margin-right: 5.21px;
+}
+h1{
+margin-top: 101px;
+margin-left: 132px;
+ height: 121px;
+ width: 644px;
+
+
+color: #FFFFFF;
+font-family: FuturaDemiC;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+
+}
+.red{
+  color:red;
+}
+.china{
+  margin-top: 56.35px;
+margin-left: 132px;
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+height: 80px;
+width: 610px;
+
+color: #FFFFFF;
+}
+button{
+  width: 268px;
+height: 61.83px;
+
+border: 3px solid #EB1616;
+box-sizing: border-box;
+box-shadow: 0px 0px 25px 13px rgba(235, 22, 22, 0.8);
+box-shadow: inset 0px 0px 15px 7px rgba(235, 22, 22, 0.8);
+background-color: rgba(0, 125, 215, 0.0);
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 24px;
+color:#fff;
+margin-top: 80px;
+margin-left: 132px;
+}
+.lorem{
+  margin-top: 125px;
+}
+.alpha{
+  margin-left: 132px;
+  margin-top: 92.75px;
+  width: 127.2px;
+height: 27.56px;
+}
+.alpha_text{
+  width: 255.05px;
+height: 45.91px;
+margin-left: 132px;
+margin-top: 5.21px;
+
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+padding-bottom: 68px;
+}
+h2{
+
+height: 45.88px;
+text-align: center;
+margin-top: 126px;
+padding-bottom: 50px;
+
+font-family: FuturaDemiC;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 72px;
+color: #080707;
+}
+  
+.grid{
+  margin-top: 16px;
+  display: grid;
+   min-width: 1519px;
+grid-template: repeat(3,431px) / repeat(3,358px);
+justify-content: space-evenly;
+
+
+}
+section{
+  margin-top: 52.12px;
+  border: 0,5px solid rgba(0, 0, 0, 0.05);
+box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.15);
+
+}
+.gid1_h4{
+  width: 235.55px;
+  padding-bottom: 20px;
+height: 16.97px;
+margin-left: 33px;
+margin-top: 33.7px;
+
+font-family: FuturaDemiC;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+
+
+
