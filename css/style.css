@@ -234,7 +234,7 @@ width: 610px;
 
 color: #FFFFFF;
 }
-button{
+.button1{
   width: 268px;
 height: 61.83px;
 
@@ -257,7 +257,7 @@ margin-left: 132px;
 }
 .alpha{
   margin-left: 132px;
-  margin-top: 92.75px;
+  margin-top: 112.75px;
   width: 127.2px;
 height: 27.56px;
 }
@@ -281,7 +281,7 @@ height: 45.88px;
 text-align: center;
 margin-top: 126px;
 padding-bottom: 50px;
-
+min-width: 1519px;
 font-family: FuturaDemiC;
 font-style: normal;
 font-weight: 600;
@@ -294,10 +294,23 @@ color: #080707;
   margin-top: 16px;
   display: grid;
    min-width: 1519px;
-grid-template: repeat(3,431px) / repeat(3,358px);
+grid-template: repeat(3,500px) / repeat(3,358px);
 justify-content: space-evenly;
 
 
+}
+.button2{
+  width: 268px;
+height: 61.83px;
+margin-left: 500px;
+margin-top: 56.43px;
+background: #EB1616;
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color:#fff;
 }
 section{
   margin-top: 52.12px;
@@ -305,8 +318,8 @@ section{
 box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.15);
 
 }
-.gid1_h4{
-  width: 235.55px;
+.grid13567_h4{
+  width: 85%;
   padding-bottom: 20px;
 height: 16.97px;
 margin-left: 33px;
@@ -318,8 +331,58 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 color: #000000;
+
+}
+.grid_ul{
+  margin-top:20px;
+}
+.grid_ul  li{
+  margin-top: 12px;
+ margin-left: 33px;
+
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+}
+section div {
+  
+height: 24.01px;
+margin-left: 33px;
+margin-top: 49px;
+
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
+}
+ section div::after{
+  content:url(../img/arrow.png);
+  margin-left: 10px;
+}
+.grid_7li{
+  max-width: 55%;
+}
+ .grid_7div{
+  margin-top: 5px;
 }
 
+.grid2489_h4{
+width: 255.21px;
+height: 40.43px;
+margin-left: 33px;
+margin-top: 33.7px;
+
+font-family: FuturaDemiC;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
 
 
 
+color: #000000;
+}
