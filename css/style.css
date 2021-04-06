@@ -85,6 +85,24 @@ h6 {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('../fonts/futurabookc.eot');
+  src: local('☺'), url('../fonts/futurabookc.woff') format('woff'), url('../fonts/futurabookc.ttf') format('truetype'), url('../fonts/futurabookc.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: url('../fonts/futurademic.eot');
+  src: local('☺'), url('../fonts/futurademic.woff') format('woff'), url('../fonts/futurademic.ttf') format('truetype'), url('../fonts/futurademic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 a{
   color:#fff;
@@ -103,6 +121,7 @@ width: 1519px;
 header{
   position: relative; 
 }
+
 
 .rsv{
   position: absolute;
@@ -166,7 +185,7 @@ color:rgba(255, 255, 255, 0.8);
 
 .vse3{
   position: absolute;
-  left: 1092px;
+  left: 1192px;
   top:40px;
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
@@ -234,8 +253,8 @@ color: #FFFFFF;
 height: 61.83px;
 border: 3px solid #EB1616;
 box-sizing: border-box;
-box-shadow: 0px 0px 25px 13px rgba(235, 22, 22, 0.8);
-box-shadow: inset 0px 0px 15px 7px rgba(235, 22, 22, 0.8);
+box-shadow: 0px 0px 16px 8px rgba(235, 22, 22, 0.8), inset 0px 0px 16px 8px rgba(235, 22, 22, 0.8);
+ 
 background-color: rgba(0, 125, 215, 0.0);
 font-family: FuturaBookC;
 font-style: normal;
@@ -245,6 +264,15 @@ line-height: 24px;
 color:#fff;
 margin-top: 80px;
 margin-left: 132px;
+}
+.button1:hover{
+ border-color: #EB1616;
+ opacity: 60%;
+box-shadow: none;
+}
+.button1:focus{
+border-color: #C01111 ;
+Opacity: 100%;
 }
 
 .lorem{
@@ -256,6 +284,7 @@ margin-left: 132px;
   margin-top: 112.75px;
   width: 127.2px;
 height: 27.56px;
+
 }
 
 .alpha_text{
@@ -482,11 +511,11 @@ color: #000000;
 }
 
 .OOO_1{
-width: 570.56px;
-height: 25px;
-margin-left: 470.5px;
+width: 630.56px;
+height: 30px;
+margin-left: 440.5px;
 margin-top: 26.84px;
-padding-bottom: 67px;
+margin-bottom: 67px;
 font-family: FuturaBookC;
 font-style: normal;
 font-weight: normal;
@@ -494,6 +523,7 @@ font-size: 28px;
 line-height: 36px;
 color: #000000;
 text-align: center;
+
 }
 
 .OOO_0{
@@ -568,14 +598,16 @@ video{
 }
 
 .h2_news{  
-  margin: 153px 0px 67.29px 604.5px;
-  width: 310px;
+  margin: 153px 0px 67.29px 564.5px;
+  width: 390px;
   font-family: FuturaDemiC;
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 40px;
 color: #000000;
+
+text-align: center;
 }
 
 .flex4{
@@ -675,6 +707,7 @@ font-size: 24px;
 line-height: 24px;
 color: #FFFFFF;
 }
+
 .image_consultation{
   margin-top: 144.23px;
   background:url(..//img/computer_image.svg) center;
@@ -685,3 +718,172 @@ box-shadow: 1px 700px inset rgba(55, 40, 40, 0.8);
 border: 0.1px solid black;
 margin-bottom: 105.79px;
 }
+
+.consultation_block{
+  width: 874px;
+  height: 238px;
+  
+  margin: 119.83px 0px 0px 332px;
+}
+
+.h2_consultation{
+height: 35px;
+  font-family: FuturaDemiC;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.text_consultation{
+  margin-top: 23px;
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.form_consultation{
+  margin-top:66.22px;
+}
+
+.name_consultation{
+  width: 254.05px;
+height: 47.91px;
+margin-right: 36px;
+background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.6);
+padding-left: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #AAA1A1;
+color:black;
+}
+.tel_consultation{
+  width: 285.12px;
+height: 47.91px;
+background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.6);
+padding-left: 21.32px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #AAA1A1;
+color: black;
+}
+.button_consultation{
+  width: 230.75px;
+height: 47.91px;
+background: #EB1616;
+box-shadow: 0px 0px 25px 13px rgba(235, 22, 22, 0.35);
+margin-left: 56.13px;
+font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.checkbox{
+  margin-top: 14px;
+width: 15px;
+height: 15px;
+
+border: 0.5px solid rgba(255, 255, 255, 0.7);
+}
+
+.label_consultation{
+ 
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+opacity: 0.9;
+
+}
+iframe{
+  
+  margin-left: 177.5px;
+}
+footer{
+  margin-top: 105.78px;
+  width: 1519px;
+height: 328.84px;
+background: #0E1D28;
+border:0.01px solid black;
+
+}
+.footer_block{
+  width: 1176px;
+  height: 196px;
+  
+ margin-left: 171.5px;
+ margin-top: 48.84px;
+ display: flex;
+ justify-content: space-between;
+ color: #FFFFFF;
+}
+.footer_nav{
+  display: flex;
+  justify-content: space-between;
+  
+  width: 666px;
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+.flex_main2{
+  margin-top: 44px;
+  opacity: 0.7;
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height:28px;
+}
+.flex_main3{
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+   margin-top: 52px;
+  opacity: 0.7;
+}
+.flex_tel{
+  font-family: FuturaBookC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+}
+.flex_tel div{
+margin-top: 13px;
+}
+.flex_tel div:first-child{
+  margin: 0px;
+}
+nav a:hover{
+  font-size: 26px;
+  color: red;
+}
+
+.button2:hover ,.button_news:hover ,.button_consultation:hover{
+ opacity: 60%;
+}
+.button2:focus ,.button_news:focus{
+  background-color: #C01111; 
+  opacity: 100%;
+  }

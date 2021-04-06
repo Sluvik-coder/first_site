@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="first">
-		<header>
+		<header id="t1">
 			<img class="logo" src="img/path6.png" >
 			<div class="rsv">РСВ</div>
 			<div>
@@ -165,7 +165,7 @@
 		
 	</section>
     <div>
-    	<video src="..//платы/img/Cyberpunk 2077 Russia Edition   Trailer E3.mp4" controls="controls" poster="img/PgotoInVideo.png"  width="1440" height="639.98"> </video>
+    	<video src="..//платы/img/video.mp4" controls="controls" poster="img/PgotoInVideo.png"  width="1440" height="639.98"> </video>
     </div>
     <h2 class="h2_news" id="t5">Новости по теме</h2>
     <div class="flex4">
@@ -201,9 +201,46 @@
     </form>
     <section class="consultation">
     	<div class="image_consultation">
-    		
+    		<div class="consultation_block">
+    			<h2 class="h2_consultation">Заказать консультацию</h2>
+    			<div class="text_consultation">Оставьте заявку и наши менеджеры свяжутся с вами</div>
+    			<form class="form_consultation" action="#">
+
+    				<input class="name_consultation" type="text" name="name" placeholder="Имя">
+    				<input class="tel_consultation" type="tel" name="tel" placeholder="Номер телефона" pattern="[0-9]{5,10}">
+    				<button class="button_consultation">
+    					Оставить заявку
+    				</button>
+    				<input class="checkbox" type="checkbox" id="check1">
+    				<label class="label_consultation" for="check1">Согласен(-а) на обработку персональных данных</label>
+    			</form>
+    		</div>
     	</div>
     </section>
-    <div>.</div>
+   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10069.289265178595!2d27.47309681151036!3d53.85974112064182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda7f9d09f5f7%3A0xc0b5b5f963a8de6a!2z0J_QsNGA0Log0J_QsNCy0LvQvtCy0LA!5e0!3m2!1sru!2sby!4v1617653055683!5m2!1sru!2sby" width="1164" height="711" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <footer>
+    	<div class="footer_block">		
+    		<div class="flex_img"><img src="img/footer_logo.png" alt=""></div> 						
+    		<div class="flex_main">
+    			<nav class="footer_nav">
+    				<div> <a href="#t1">О компании</a></div>
+    				<div> <a href="#t2">Продукция</a></div>
+    				<div> <a href="#t3">Услуги </a></div>
+    				<div> <a href="#t4">Контакты</a></div>
+    				<div> <a href="#t5">Новости</a></div>
+    			</nav> 
+    			<div class="flex_main2">САЙТ НЕ ЯВЛЯЕТСЯ ИНТЕРНЕТ-МАГАЗИНОМ</div>
+    			<div class="flex_main3">© 2020 ООО «Восточные ПЛАТЫ»</div>
+    		</div>
+    		<div id="t4" class="flex_tel">
+    			<div>+375 (29) 817-02-16</div>
+    			<div>+375 (29) 619-02-16</div>
+    			<div>+375 (29) 714-64-55</div>
+    			<div>+375 (29) 314-23-00</div>
+    			<div>+375 (17) 336-10-06(07)</div>
+    		</div>
+    	</div>
+    </footer>
 </body>
 </html>
